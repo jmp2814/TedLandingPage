@@ -3,29 +3,56 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.image-container {
+/* header {
+  position: relative;
+  height: 100vh;
+  background: url("assets/TedAndChuckChase.jpg") center/cover no-repeat;
+  background-size: cover;
+  color: #fff; /* Set text color to white or any contrasting color */
+/* text-align: center; */
+/* display: flex; */
+/* flex-direction: column; */
+/* justify-content: center; */
+/* } */
+
+/* .image-container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.image-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto; /* Center the container horizontally */
 }
 
-.image-container h1 {
+/* .image-container h1 {
   position: absolute;
   top: 45%;
   left: 45%;
   z-index: 1;
-}
+} */
 
 #TedMain {
-  height: 100%;
+  height: auto;
   width: 100%;
+  display: block;
 }
 
 h1 {
   color: whitesmoke;
   font-size: 40px;
   font-family: serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
     2px 2px 0 #000;
 }
